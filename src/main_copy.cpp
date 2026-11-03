@@ -109,7 +109,7 @@ int main(int argc, char* argv[]) {
         // const auto enable_flag = robot_reader::writeEnable(fd, joint_id);
         // std::cout << "写使能确认:"
         //     << enable_flag 
-        //     << '\n';
+        //     << '\n'; 
         const auto disable_flag = robot_reader::writeDisable(fd, joint_id);
         std::cout << "写失能确认:"
             << disable_flag 
